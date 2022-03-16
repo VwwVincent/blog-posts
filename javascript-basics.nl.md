@@ -364,20 +364,24 @@ let grootsteGetal;
 
 if (a > b) {
   grootsteGetal = a;
+  console.log(`Het grootste getal is: ${a}`);
 } else {
   grootsteGetal = b;
+  console.log(`Het grootste getal is: ${b}`);
 }
-console.log(`Het grootste getal is: ${a}`);
+
 
 a = 4;
 b = 5;
 
 if (a > b) {
   grootsteGetal = a;
+  console.log(`Het grootste getal is: ${a}`);
 } else {
   grootsteGetal = b;
+  console.log(`Het grootste getal is: ${b}`);
 }
-console.log(`Het grootste getal is: ${b}`);
+
 ```
 
 Er wordt twee keer hetzelfde gedaan, dit kan dus in een functie gestoken worden.
